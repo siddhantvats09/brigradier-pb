@@ -109,8 +109,8 @@ export default function SSBAccordion() {
                             {/* CONTENT */}
                             <div
                                 className={`transition-all duration-300 px-5 ${openIndex === index
-                                        ? "max-h-[600px] pb-6"
-                                        : "max-h-0 overflow-hidden"
+                                    ? "max-h-[600px] pb-6"
+                                    : "max-h-0 overflow-hidden"
                                     }`}
                             >
                                 <ul className="space-y-3 text-gray-700 text-sm md:text-base">
@@ -121,10 +121,13 @@ export default function SSBAccordion() {
                                         </li>
                                     ))}
                                 </ul>
+                                <a href="#contactssb">
 
-                                <button className="mt-6 bg-[#0D2B4D] text-white px-5 py-2 rounded-lg text-sm hover:bg-[#0a223d] transition">
-                                    Know More About the Course
-                                </button>
+
+                                    <button className="mt-6 cursor-pointer bg-[#0D2B4D] text-white px-5 py-2 rounded-lg text-sm hover:bg-[#0a223d] transition">
+                                        Know More About the Course
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     ))}

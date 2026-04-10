@@ -20,10 +20,13 @@ export default function WhyChooseUs() {
                             Join BDA for the Best SSB preparation.
                         </span>
                     </p>
+                    <a href="#contactssb">
 
-                    <button className="mt-4 bg-yellow-500 hover:bg-yellow-400 text-black px-6 py-2 rounded-lg font-medium transition">
-                        Join Now
-                    </button>
+
+                        <button className="mt-4 bg-yellow-500 hover:bg-yellow-400 text-black px-6 py-2 rounded-lg font-medium transition">
+                            Join Now
+                        </button>
+                    </a>
                 </div>
 
                 {/* HEADING */}

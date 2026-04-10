@@ -44,7 +44,7 @@ export default function SSBSection() {
     };
 
     return (
-        <section className="w-full bg-[#d7e6eb] py-16 px-4 lg:px-8">
+        <section id="contactssb" className="w-full bg-[#d7e6eb] py-16 px-4 lg:px-8">
             <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
                 {/* LEFT CONTENT */}

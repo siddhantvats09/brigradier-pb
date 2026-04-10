@@ -10,31 +10,31 @@ export default function Navbar() {
   return (
     <nav className="w-full bg-white shadow-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="flex items-center justify-between h-20">
-          
+
           {/* LEFT - LOGO */}
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/logo.png" // replace with your logo path
+              src="/images/logo22.png" // replace with your logo path
               alt="Brigadier Defence Academy"
-              width={50}
-              height={50}
+              width={200}
+              height={200}
               className="object-contain"
             />
-            <div className="leading-tight">
+            {/* <div className="leading-tight">
               <h1 className="text-lg font-bold text-gray-800">
                 BRIGADIER
               </h1>
               <p className="text-sm text-gray-600 -mt-1">
                 DEFENCE ACADEMY
               </p>
-            </div>
+            </div> */}
           </Link>
 
           {/* RIGHT SECTION */}
           <div className="hidden md:flex items-center gap-6">
-            
+
             {/* PHONE */}
             <a
               href="tel:+919286011916"
@@ -45,7 +45,7 @@ export default function Navbar() {
 
             {/* CTA BUTTON */}
             <Link
-              href="#"
+              href="#contactssb"
               className="bg-[#0D2B4D] text-white px-6 py-3 rounded-xl font-medium hover:bg-[#0a223d] transition"
             >
               Get Admission

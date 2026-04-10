@@ -1,4 +1,5 @@
 import Image from "next/image";
+// import Link from "next/link"
 
 export default function AssessorsSection() {
     return (
@@ -13,6 +14,7 @@ export default function AssessorsSection() {
                     </span>{" "}
                     from Bhopal & Allahabad boards
                 </h2>
+
 
                 {/* IMAGE */}
                 <div className="mt-10 relative w-full h-[260px] md:h-[450px] rounded-xl overflow-hidden">
@@ -37,10 +39,11 @@ export default function AssessorsSection() {
                     <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
                         Don’t wait for another attempt. Start preparing the right way.
                     </p>
-
-                    <button className="mt-6 bg-yellow-500 hover:bg-yellow-400 text-black font-semibold px-8 py-3 rounded-xl transition">
-                        Reserve Your Seat Now
-                    </button>
+                    <a href="#contactssb">
+                        <button className="mt-6 bg-yellow-500 hover:bg-yellow-400 text-black font-semibold px-8 py-3 rounded-xl transition">
+                            Reserve Your Seat Now
+                        </button>
+                    </a>
                 </div>
 
             </div>
