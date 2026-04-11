@@ -6,24 +6,27 @@ const images = [
     "/images/image-13.webp",
     "/images/image-14.webp",
     "/images/image-15.webp",
+    "/images/dio.jpeg",
+    "/images/dio2.jpeg",
+    "/images/dio3.jpeg",
 ];
 
 export default function GallerySectionV2() {
     return (
-        <section className="w-full bg-[#f2f2f2] py-14 px-4">
+        <section className="w-full bg-[#f5f7fa] pb-8  px-4">
             <div className="max-w-6xl mx-auto">
 
                 {/* OUTER BORDER BOX */}
-                <div className="border border-gray-400 rounded-md px-6 md:px-10 py-10 bg-white">
+                <div className=" ">
 
                     {/* HEADING */}
-                    <h2 className="text-2xl md:text-4xl font-semibold text-center text-[#0D2B4D] leading-snug">
+                    {/* <h2 className="text-2xl md:text-4xl font-semibold text-center text-[#0D2B4D] leading-snug">
                         Real Simulation{" "}
                         <span className="text-yellow-500 font-bold">
                             Ground Practice
                         </span>{" "}
                         With GTO
-                    </h2>
+                    </h2> */}
 
                     {/* IMAGES ROW */}
                     <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-6">

@@ -20,7 +20,7 @@ export default function SelectionBanner() {
                 </div>
 
                 {/* IMAGE BANNER */}
-                <div className="mt-10 relative w-full h-[260px] md:h-[580px] rounded-xl overflow-hidden shadow-lg">
+                <div className="mt-10 relative w-full h-[200px] md:h-[580px] rounded-xl overflow-hidden shadow-lg">
                     <Image
                         src="/images/nda00.jpg" // replace with your image
                         alt="SSB Selections"
